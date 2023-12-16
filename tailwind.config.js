@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Nunito']
+        body: ['Nunito'],
+        title: ['Rubik']
       }
     },
   },
