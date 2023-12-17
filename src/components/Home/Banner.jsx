@@ -18,7 +18,7 @@ const Banner = () => {
                     ]}
                     wrapper='h1'
                     speed={30}
-                    className='text-7xl'
+                    className='text-7xl font-title'
                     repeat={Infinity}
                 />
                 <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, natus?</h4>

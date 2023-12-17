@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         body: ['Nunito'],
         title: ['Rubik']
+      },
+      fontWeight: {
+        superbold: '1000'
       }
     },
   },

@@ -19,9 +19,25 @@
 }
 
 .scalable {
-  @apply transition-transform ease-in-out transform
+  @apply transition-transform ease-in-out transform duration-300
 }
 
 .card {
   @apply flex flex-col bg-red-200 w-56 h-56 p-5 items-center justify-center text-center rounded-xl drop-shadow-xl scalable hover:scale-110
+}
+
+.product-pict {
+  @apply flex flex-col items-center justify-center bg-slate-300 w-80 h-80 rounded-lg mb-2 scalable hover:cursor-pointer p-2 border-4
+}
+
+.link {
+  display: none;
+}
+
+.product:hover .link {
+  display: flex;
+}
+
+.product:hover .product-pict {
+  filter: blur(4px);
 }
